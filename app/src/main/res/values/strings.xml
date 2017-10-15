@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CurrencyConverter2017</string>
+    <string name="converter">Conversor</string>
+    <string name="currencies">Monedas</string>
 </resources>
