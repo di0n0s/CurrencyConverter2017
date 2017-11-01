@@ -23,9 +23,9 @@ public class CurrenciesListHolder extends RecyclerView.ViewHolder implements Vie
     @BindView(R.id.flag_image_view)
     ImageView flagImageView;
     @BindView(R.id.currency_name_text_view)
-    private TextView currencyNameTextView;
+    TextView currencyNameTextView;
     @BindView(R.id.currency_value_text_view)
-    private TextView currencyValueTextView;
+    TextView currencyValueTextView;
 
 
     public CurrenciesListHolder(View itemView, AdapterListOnClickListener.AdapterListener adapterListener) {

@@ -22,7 +22,7 @@ class RestClient {
                 .readTimeout(TIMEOUT_READ_VALUE, TimeUnit.SECONDS)
                 .writeTimeout(TIMEOUT_WRITE_VALUE, TimeUnit.SECONDS);
         Retrofit.Builder builder = new Retrofit.Builder()
-                .baseUrl("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml")
+                .baseUrl("https://www.ecb.europa.eu/stats/eurofxref/")
                 .addConverterFactory(SimpleXmlConverterFactory.create());
         return builder.client(httpClient.build()).build().create(serviceClass);
 

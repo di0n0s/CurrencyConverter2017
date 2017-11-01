@@ -6,7 +6,7 @@ package com.example.sfcar.currencyconverter2017.domain.data.api;
 
 public class Service {
 
-    public ServerApi getService() {
+    public static ServerApi getService() {
         return RestClient.createService(ServerApi.class);
     }
 }
