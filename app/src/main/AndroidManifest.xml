@@ -18,10 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".presentation.currenciesList.CurrenciesListActivity"/>
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="dc1cdf8700fe7a4c92ae759b53f2e048b9b42321" />
-        <activity android:name=".presentation.currenciesList.CurrenciesListActivity"></activity>
     </application>
 
 </manifest>

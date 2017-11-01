@@ -14,8 +14,6 @@ import retrofit2.Response;
 
 public class SourceImp implements Source {
 
-    private static final String TAG = "Service";
-
     @Override
     public void getCurrenciesValues(final GetCurrenciesValuesCallback callback) {
         ServerApi serverApi = Service.getService();
