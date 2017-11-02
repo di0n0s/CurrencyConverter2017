@@ -3,7 +3,6 @@ package com.example.sfcar.currencyconverter2017.presentation.model;
 /**
  * Created by sfcar on 15/10/2017.
  */
-
 public class Currency {
 
     private String flag;
